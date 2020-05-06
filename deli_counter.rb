@@ -4,9 +4,9 @@ def line(array)
   current_line = "The Line is currently."
 end
 
-def take_a_number(number, name)
-  number << name
-  
+def take_a_number(array, name)
+  array << name
+  number = array.length
 def now_serving(array)
   if array.length > 1
     puts  "Currently serving #(array.first)." 
