@@ -2,4 +2,4 @@
 
 def line(array)
   "The Line is currently empty."
-  katz_deli = []
+end
