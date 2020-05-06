@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(array)
-  current_line = "The Line is currently."
+  current_line = "The line is currently."
   if array.size > 1
     array.each do |person|
       current_line << "#{array.index(person)+1}. #{person}"
