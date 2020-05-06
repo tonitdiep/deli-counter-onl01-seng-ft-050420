@@ -5,4 +5,4 @@ def line(array)
 end
 
 def now_serving
-  if no one is in line, then "N"
+  "Now serving #(name) "
