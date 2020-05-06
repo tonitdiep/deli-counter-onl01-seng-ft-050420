@@ -7,7 +7,7 @@ end
 def take_a_number(array, name)
   array << name
   number = array.length
-    puts "Welcome, #{name}! You are number #{number}"
+    puts "Welcome, #{name}! You are number #{number} in line."
 def now_serving(array)
   if array.length > 1
     puts  "Currently serving #(array.first)." 
