@@ -5,4 +5,5 @@ def line(array)
 end
 
 def now_serving(array)
-  "Now serving #(name) "
+  if array.length > 1
+    puts  "Now serving #(array.first) "
