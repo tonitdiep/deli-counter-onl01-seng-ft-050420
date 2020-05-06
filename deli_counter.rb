@@ -6,4 +6,6 @@ end
 
 def now_serving(array)
   if array.length > 1
-    puts  "Now serving #(array.first) "
+    puts  "Now serving #(array.first)."
+  else
+    
