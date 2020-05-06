@@ -5,7 +5,8 @@ def line(array)
   if array.size > 1
     array.each do |person|
       current_line << "#{array.index(person)+1}. #{person}"
-      
+    end
+    
 end
 
 def take_a_number(array, name)
