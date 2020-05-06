@@ -6,6 +6,7 @@ def line(array)
     array.each do |person|
       current_line << "#{array.index(person)+1}. #{person}"
     end
+    puts current_line
     
 end
 
