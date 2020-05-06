@@ -2,8 +2,8 @@
 
 def line(array)
   current_line = "The line is currently."
-  if array.size > 1
-    array.each do |person|
+  array.each do |person|
+      if array.size > 1
       current_line << "#{array.index(person)+1}. #{person}"
   end
     puts current_line
@@ -11,7 +11,7 @@ def line(array)
     puts "The line is currently empty."
 end
 end
-end
+
 def take_a_number(array, name)
   array << name
   number = array.length
