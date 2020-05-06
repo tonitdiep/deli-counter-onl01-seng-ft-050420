@@ -4,7 +4,7 @@ def line(array)
   current_line = "The Line is currently."
 end
 
-
+def take_a_number()
 
 def now_serving(array)
   if array.length > 1
