@@ -4,7 +4,7 @@ def line(array)
   current_line = "The Line is currently."
   if array.size > 1
     array.each do |person|
-      current_line 
+      current_line << "#{array.index(person)"
 end
 
 def take_a_number(array, name)
