@@ -4,6 +4,8 @@ def line(array)
   current_line = "The Line is currently."
 end
 
+
+
 def now_serving(array)
   if array.length > 1
     puts  "Currently serving #(array.first)." 
