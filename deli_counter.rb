@@ -2,6 +2,8 @@
 
 def line(array)
   current_line = "The Line is currently."
+  if array.size > 1
+    
 end
 
 def take_a_number(array, name)
